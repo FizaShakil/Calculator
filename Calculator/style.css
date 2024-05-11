@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(180, 206, 180);
+}
+.container{
+    position: relative;
+    top: 70px;
+    background-color: seagreen;
+    border: 2px solid black;
+    width: 30%;
+    height: 500px;
+    padding: 20px 15px 23px 15px;
+    margin-left: 33%;
+    border-radius: 30px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row input{
+    /* padding: 20px 90px 20px 90px; */
+    width: 93%;
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    text-align: end;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.row button{
+    padding: 25px 30px 25px 30px;
+    margin: 10px 10px 0px 10px;
+    font-size: 22px;
+    border: 1px solid black;
+    background-color: rgb(223, 216, 202);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.row button:hover{
+    background-color: rgb(173, 165, 153);
+}
+#clear{
+    background-color: rgb(206, 70, 70);
+    width:55%;   
+}
+#clear:hover{
+    background-color: rgb(204, 40, 40);
+}
+.equal{
+    width: 32%;
+}
